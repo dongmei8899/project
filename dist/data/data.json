@@ -1,0 +1,14 @@
+[
+    {"id":0,"img":"../img/l1.jpg","name":"特卖价","price":"￥283","discount":"1.0折" ,"type":"URLAZH/有兰 时尚翻领宽松落肩袖立体袖子廓形系列外套"},
+    {"id":1,"img":"../img/l2.jpg","name":"特卖价","price":"￥226","discount":"1.7折" ,"type":"新款卫衣女春秋外套女slogan羊毛卫衣T恤"},
+    {"id":2,"img":"../img/l3.jpg","name":"特卖价","price":"￥89","discount":"1.6折" ,"type":"新款slong简约休闲瑜伽裤打底裤女夏"},
+    {"id":3,"img":"../img/l4.jpg","name":"特卖价","price":"￥334","discount":"0.5折" ,"type":"2019秋季新款时尚舒适字母拼色高领打底外穿保暖毛衣女"},
+    {"id":4,"img":"../img/l5.jpg","name":"特卖价","price":"￥149","discount":"0.7折" ,"type":"URLAZH/有兰 春季时尚圆领宽松落肩袖冰岛伏特加休闲卫衣连衣裙"},
+    {"id":5,"img":"../img/l6.jpg","name":"特卖价","price":"￥346","discount":"0.9折" ,"type":"秋冬季新品U-CAT双面羊毛呢大衣女"},
+    {"id":6,"img":"../img/l7.jpg","name":"特卖价","price":"￥101","discount":"0.5折" ,"type":"时尚圆领立绒波点九分袖连衣裙"},
+    {"id":7,"img":"../img/l8.jpg","name":"特卖价","price":"￥322","discount":"0.9折" ,"type":"新品咖啡杯涂鸦毛呢大衣"},
+    {"id":8,"img":"../img/l9.jpg","name":"特卖价","price":"￥376","discount":"2.0折" ,"type":"2020春秋新款松鼠刺绣卫衣连帽女外套"},
+    {"id":9,"img":"../img/l10.jpg","name":"特卖价","price":"147","discount":"0.6折" ,"type":"西装领高雅格子双排扣宽松版型开叉下摆外套"},
+    {"id":10,"img":"../img/l11.jpg","name":"特卖价","price":"￥255","discount":"0.7折" ,"type":"新品丛林驼色毛呢大衣女"},
+    {"id":11,"img":"../img/l12.jpg","name":"特卖价","price":"￥101","discount":"0.7折" ,"type":"URLAZH/有兰 春秋时尚圆领一千零一夜曲珠纱休闲连衣裙"}
+]

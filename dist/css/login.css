@@ -1,0 +1,86 @@
+header {
+    width: 1000px;
+    margin-left: 100px; }
+    header a img {
+      width: 125px;
+      height: 100px; }
+    header span {
+      float: right;
+      width: 304px;
+      height: 100px; }
+      header span img {
+        width: 100%;
+        height: 100%; }
+  
+  .con {
+    height: 550px;
+    background: url(../img/regist.jpg) no-repeat;
+    background-size: 100% 100%; }
+    .con .login{
+      width: 400px;
+      height: 450px;
+      background-color: #fff;
+      float: right;
+      margin-top: 50px;
+      margin-right: 100px;
+    overflow: hidden; }
+      .con .login section {
+        height: 50px;
+        width: 400px;
+        border-bottom: 1px solid #e5e5e5;
+        margin-top: 10px; 
+        /* line-height: 50px; */
+    }
+        .con .login section span{
+            display: inline-block;
+            height: 30px;
+            font-size: 20px;
+            text-align: center;
+            width: 199px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .con .login section span:first-child{
+            color: #f10180;
+            border-right: 1px solid #554f4f;
+        }
+        .con .login .userBox{
+          height: 400px;
+        }
+      .con .login .userBox form input {
+        width: 300px;
+        height: 50px;
+        margin-left: 50px;
+        margin-top: 30px;
+        border: 1px solid #554f4f;
+        border-radius: 5px;
+        text-indent: 2em;
+        outline: none; }
+      .con .login .userBox form p {
+        height: 50px;
+        width: 300px;
+        margin: 20px 50px;
+        line-height: 50px; }
+        .con .login .userBox form p i:last-child{
+            font-size: 12px;
+            float: right;
+        }
+      .con .login .userBox form input:nth-of-type(3) {
+        text-indent: 0;
+        background-color: #f10180;
+        color: #fff;
+        font-size: 16px; }
+    .con .login .ewmBox{
+            height: 400px; 
+        }
+    .con .login #ewmBox p{
+            font-size: 12px;
+            margin-left: 50px;
+        }
+  
+  aside {
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 12px; }
+  

@@ -1,0 +1,39 @@
+body, h1, h2, h3, h4, h5, h6, ol, dl, ul, li, dt, dd, p, form, input,
+textarea, tr, td, select, th, fieldset, a {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-size: 16px; }
+
+ul, ol {
+  list-style: none; }
+
+a, u {
+  text-decoration: none; }
+
+b, strong {
+  font-weight: normal; }
+
+i, em {
+  font-style: normal; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+.clearfn:after {
+  content: "";
+  clear: both;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  visibility: hidden; }
+
+.clearfn {
+  zoom: 1; }
+
+/*textarea,fieldset{
+	border:none;
+	outline:none;
+}*/

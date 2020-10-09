@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header><a href=""><img src="../img/logo.png" alt=""></a><span><img src="../img/nav.jpg" alt=""></span></header>
+    <div class="con">
+        <div class="login">
+            <section><span class="userSpan">密码登录</span><span class="ewmSpan">扫码登录</span></section>
+            <div class="userBox">
+                <form method="post" action="../php/login.php">
+                    <input type="text" name="username" id="" placeholder="手机号/用户名/邮箱">
+                    <input type="password" name="password" id="" placeholder="密码">
+                    <p><i>短信验证登录</i><i>忘记密码</i></p>
+                    <input type="submit" value="立即登录">
+                </form>
+            </div>
+            <div clss="ewmBox">
+                <img src="../img/ew.png" alt="" style="margin-left: 120px;margin-top: 50px;">
+                <p style="font-size: 12px;margin-left:100px; margin-top: 20px;margin-bottom: 100px;">打开唯品会App个人中心 扫一扫</p>
+                <a href="regist.html" style="display: inline-block; font-size: 14px;margin-left: 320px;color: #f10180;">免费注册</a>
+            </div>
+        </div>
+    </div>
+    <aside>Copyright 2008-2020 vip.com，All Rights Reserved ICP证：粤 B2-20080329</aside>
+</body>
+<script src="../js/jquery-1.11.3.js"></script>
+<script>
+    $(".userSpan").click(function(){
+//	字体颜色玫色
+	$(this).css("color","#f10180");
+//	字体颜色灰色
+	$(".ewmSpan").css("color","#545B62");
+	$(".userBox").css("display","block");
+	$(".ewmBox").css("display","none");
+});
+$(".ewmSpan").click(function(){
+//	字体颜色玫色
+	$(this).css("color","#f10180");
+//	字体颜色灰色
+	$(".userSpan").css("color","#545B62");
+	$(".userBox").css("display","none");
+	$(".ewmBox").css("display","block");
+});
+</script>
+</html>
